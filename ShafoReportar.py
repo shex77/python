@@ -90,23 +90,10 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\033[1;96m ============================================================="
-print  """\033[1;91m
-
-
-
-                        SHAFO REPORTAR
-                     ▇◤▔▔▔▔▔▔▔◥▇
-                     ▇▏◥▇◣┊◢▇◤▕▇
-                     ▇▏▃▆▅▎▅▆▃▕▇
-                     ▇▏╱▔▕▎▔▔╲▕▇
-                     ▇◣◣▃▅▎▅▃◢◢▇
-                     ▇▇◣◥▅▅▅◤◢▇▇
-                     ▇▇▇◣╲▇╱◢▇▇▇
-                     ▇▇▇▇◣▇◢▇▇▇
+print  """\033[1;91
 print " \x1b[1;93m============================================================="
 
-CorrectUsername =SHAFO
-CorrectPassword =Shafo
+
 
 loop = 'true'
 while (loop == 'true'):
@@ -138,7 +125,7 @@ def login():
 		tik()
 		try:
 			br.open('https://m.facebook.com')
-		except mechanize.URLError:
+		except mechanize.
 			print"\n\033[1;96m[!] \x1b[1;91mThere is no internet connection"
 			keluar()
 		br._factory.is_html = True
