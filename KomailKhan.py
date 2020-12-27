@@ -47,12 +47,12 @@ def jalan(z):
 
 
 ##### LOGO #####
-logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr cL๏ЙIЙG
-           ▄︻┻═┳一 ♥️K๏MąIL-KђąЙ-๏FFIcIąL♥️----------🔴
-           ▄︻┻═┳一 ♥️♥️ K๏MąIL - cL๏Йєr  ♥️♥️----🔴🔴
-           ▄︻┻═┳一    💪💪PAPPU-BACHA💪💪   🔴🔴
-           ▄︻┻═┳一 ---- FєєL ┼ђє P๏Щєr   --------🔴🔴
-	          ЩєLc๏Mє ┼๏ ЦЙLIMI┼єđ cL๏ЙIЙG
+logo = """ ▄︻┻═┳一 SHAFO REPORTAR ┼๏ ┼SHAFO REPORTAR
+           ▄︻┻═┳一 ♥️SHAFO REPORTAR♥️----------🔴
+           ▄︻┻═┳一 ♥️♥️ SHAFO REPORTAR ♥️♥️----🔴🔴
+           ▄︻┻═┳一    💪💪SHAFO REPORTAR💪💪   🔴🔴
+           ▄︻┻═┳一 ---- SHAFO REPORTAR   --------🔴🔴
+	          SHAFO REPORTAR ┼๏ SHAFO REPORTAR┼SHAFO REPORTAR
   
  ██ ▄█▀ ▒█████   ███▄ ▄███▓ ▄▄▄       ██▓ ██▓    
  ██▄█▒ ▒██▒  ██▒▓██▒▀█▀ ██▒▒████▄    ▓██▒▓██▒    
@@ -64,8 +64,8 @@ logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr
 ░ ░░ ░ ░ ░ ░ ▒  ░      ░     ░   ▒    ▒ ░  ░ ░   
 ░  ░       ░ ░         ░         ░  ░ ░      ░  ░
                                                  
-               WhatsApp: 03124788959
-                        KOMAIL
+               snap: br35308
+                        SHAFO REPORTAR
                      ▇◤▔▔▔▔▔▔▔◥▇
                      ▇▏◥▇◣┊◢▇◤▕▇
                      ▇▏▃▆▅▎▅▆▃▕▇
@@ -75,15 +75,13 @@ logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr
                      ▇▇▇◣╲▇╱◢▇▇▇
                      ▇▇▇▇◣▇◢▇▇▇▇
 
-        ђ๏Pє Y๏Ц MąY Gє┼ ๏Ц┼ЙЦMßєrєđ ącc๏ЦЙ┼ş 
-       P๏şşIßLY şYЙcђr๏ЙI乙єđ ßY ┼ђIş GI┼ђЦß . 
+        SHAFO REPORTAR┼ ๏┼SHAFO REPORTAR┼🇮
+       SHAFO REPORTAR┼SHAFO REPORTAR┼SHAFO REPORTAR
           ♥️♥️♥️ ßєş┼ ๏F LЦcK  ♥️♥️♥️
-      ♥️♥️ rąM乙ąЙ MЦßąrąK ┼๏ єVєrY ß๏đY  ♥️♥️
-\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mKomail Khan
-\033[1;96mInstagram \033[1;93m: \033[1: itx_muskan_yr
-\033[1;96mFacebook  \033[1;93m: \033[1: komail.khan.3781
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/KomailKhan/komailkhan
+      ♥️♥️ SHAFO REPORTAR ┼SHAFO REPORTAR♥️♥️
+\033[1;91m======================================
+instagram\033[1;96\033[1;93m: \033[1:sha_fo_ka
+
 \033[1;91m======================================="""
 
 def tik():
@@ -113,7 +111,7 @@ print  """\033[1;91m
 ░ ░▒ ▒░  ░ ▒ ▒░ ░  ░      ░  ▒   ▒▒ ░ ▒ ░░ ░ ▒  ░
 ░ ░░ ░ ░ ░ ░ ▒  ░      ░     ░   ▒    ▒ ░  ░ ░   
 ░  ░       ░ ░         ░         ░  ░ ░      ░  ░
-                        KOMAIL
+                        SHAFO REPORTAR
                      ▇◤▔▔▔▔▔▔▔◥▇
                      ▇▏◥▇◣┊◢▇◤▕▇
                      ▇▏▃▆▅▎▅▆▃▕▇
@@ -122,16 +120,15 @@ print  """\033[1;91m
                      ▇▇◣◥▅▅▅◤◢▇▇
                      ▇▇▇◣╲▇╱◢▇▇▇
                      ▇▇▇▇◣▇◢▇▇▇▇
-                   WhatsApp : 03124788959
-\033[1;96mAuthor  \033[1;93m: \033[1;92mKomail Khan
-\033[1;96mInstagram \033[1;93m: \033[1;92mitx_muskan_yr
-\033[1;96mFacebook  \033[1;93m: \033[1;92m komail.khan.3781
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/KomailKhan/komailkhan
+                   
+\033[1;96mInstagram \033[1;93m: \033[1;92/sha_fo_ka
+
+\033[1;96mFaceboo  
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "komail"
-CorrectPassword = "khan"
+CorrectUsername = "SHAFO
+CorrectPassword = "SHAFO
 
 loop = 'true'
 while (loop == 'true'):
@@ -142,11 +139,11 @@ while (loop == 'true'):
             print "Logged in successfully as " + username
             loop = 'false'
         else:
-            print "Wrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ ')
+            print "pass ghalata"
+            os.system('xdg-open https://www.snapchat.com/add/br35308')
     else:
         print "Wrong Username"
-        os.system('xdg-open  https://www.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ ')
+        os.system('xdg-open  Add me on Snapchat! Username: br35308 https://www.snapchat.com/add/br35308')
 
 def login():
 	os.system('clear')
@@ -452,7 +449,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 42*"\033[1;96m="
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed Komail says Thank You♥️ \033[1;97m....'
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed SHAFO says Thank You♥️ \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print("\033[1;96m[+] \033[1;92mTHANKS FOR USING MY COMMANDS ! WE WILL BE RIGHT BACK \033[1;91m: \033[1;97mout/checkpoint.txt")
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
