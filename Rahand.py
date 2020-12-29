@@ -73,14 +73,14 @@ def show_program():
                     %sINFORMATION%s
  ------------------------------------------------------
 
-    DRUSTKAR     SHAFO_PRGRAMAR
-    Name       SHAFO_REPRTAR'
-    CodeName   shafo_iraqe
+    DRUSTKAR     rahand_PRGRAMAR
+    Name       rahand_REPRTAR'
+    CodeName   rahand_
     version    full version
-    Date       23/1/2004
+    Date       
     im       reprtar
-    snapchat      br35308
-    instagram  @sha_fo_ka
+    snapchat      
+    instagram  @rab1it
 
 * if you find any errors or problems , please contact
   author
@@ -921,7 +921,7 @@ def main():
   global target_id
 
   try:
-	cek = raw_input(R + 'D3b2y' + W +' >> ')
+	cek = raw_input(R + 'rab1it' + W +' >> ')
 
 	if cek.lower() == 'get_data':
 		if len(jml) == 0:
