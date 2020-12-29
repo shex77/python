@@ -73,14 +73,14 @@ def show_program():
                     %sINFORMATION%s
  ------------------------------------------------------
 
-    Author     Debby Anggraini 'CiKu370'
-    Name       OSIF 'Open Source Information Facebook'
-    CodeName   D3b2y
+    DRUSTKAR     SHAFO_PRGRAMAR
+    Name       SHAFO_REPRTAR'
+    CodeName   shafo_iraqe
     version    full version
-    Date       16/05/2018 09:35:12
-    Team       Blackhole Security
-    Email      xnver404@gmail.com
-    Telegram   @CiKu370
+    Date       23/1/2004
+    im       reprtar
+    snapchat      br35308
+    instagram  @sha_fo_ka
 
 * if you find any errors or problems , please contact
   author
@@ -132,7 +132,7 @@ def menu_reaction():
    %sNumber                  INFO%s
  ----------   ------------------------------------
 
-   [ 01 ]      like
+   [ 01 ]      like zeadkrdn
    [ 02 ]      reaction 'LOVE'
    [ 03 ]      reaction 'WOW'
    [ 04 ]      reaction 'HAHA'
