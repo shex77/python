@@ -1,139 +1,157 @@
 import requests
-from time import sleep
+
+import time
+
+import json
+
+import itertools
+
+import threading
+
+import sys
+
+ 
+
+done = False
+
+#here is the animation
+
+def animate():
+
+    for c in itertools.cycle(['|', '/', '-', '\\']):
+
+        if done:
+
+            break
+
+        sys.stdout.write('\rloading ' + c)
+
+        sys.stdout.flush()
+
+        time.sleep(0.1)
+
+    sys.stdout.write('\rEnter Login detials! ,      ')
+
+ 
+
+t = threading.Thread(target=animate)
+
+ 
+
 print("""
 
-logo = ("""
-
-          ("--------------------------")
-
-          ("Follow me instagram @sha_fo_ka")
-
-          ("--------------------------")
-
-                  ("bot spam")
-
-""")
+   insta ples add:sha_fo_ka
+░█▀▀▀█ ░█─░█ ─█▀▀█ ░█▀▀▀ ░█▀▀▀█ 
+─▀▀▀▄▄ ░█▀▀█ ░█▄▄█ ░█▀▀▀ ░█──░█ 
+░█▄▄▄█ ░█─░█ ░█─░█ ░█─── ░█▄▄▄█
+⠀⠀           
 
  
 
-print(logo) 
+                                     """)
 
-user = input instay xot(': ') 
+time.sleep(10)
 
-password = input pass daxl ka(': ') 
+print("————————————————————————————————————")
 
-target = str(input(instay kabra(":"))) 
+print("snap:br35308")
 
-sle = int(input(": ")) 
+print("——————————————————————————")
 
-def login(): 
-
-    global target 
-
-    r = requests.Session() 
+t.start()
 
  
 
-    uid = str(uuid.uuid4()) 
+time.sleep(10)
 
- 
+done = True
 
-    url = "https://i.instagram.com/api/v1/accounts/login/" 
+username = input usare xot bnusa (":")
 
- 
+pasword = input passe instat bnusa(":")
 
-    headers = { 
+Target = input nawe kabra(":")
 
-        'User-Agent': 'Instagram 113.0.0.39.122 Android (24/5.0; 515dpi; 1440x2416; huawei/google; Nexus 6P; angler; angler; en_US)', 
+r = requests.session()
 
-        "Accept": "*/*", 
+url = "https://www.instagram.com/accounts/login/ajax/"
 
-        "Accept-Encoding": "gzip, deflate", 
+headers = {
 
-        "Accept-Language": "en-US", 
+"accept":"*/*",
 
-        "X-IG-Capabilities": "3brTvw==", 
+"accept-encoding":"gzip, deflate,br",
 
-        "X-IG-Connection-Type": "WIFI", 
+"accept-language": "ar,en-US;q=0.9,en;q=0.8",
 
-        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8", 
+"content-length": "279",
 
-        'Host': 'i.instagram.com' 
+"content-type": "application/x-www-form-urlencoded",
 
-    } 
+"origin": "https://www.instagram.com",
 
- 
+"referer": "https://www.instagram.com/",
 
-    data = { 
+"sec-fetch-dest":"empty",
 
-        '_uuid': uid, 
+"sec-fetch-site":"same-origin",
 
-        'username': user, 
+"user-agent":"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",
 
-        'enc_password': '#PWD_INSTAGRAM_BROWSER:0:1589682409:{}'.format(password), 
+"x-csrftoken": "lih2ypMfhzdqwMbm5jIILqxZDj4zLeCW",
 
-        'queryParams': '{}', 
+"x-ig-app-id": "936619743392459",
 
-        'optIntoOneTap': 'false', 
+"x-ig-www-claim": "hmac.AR1_p9SjMFQF73bcZgzygDgxb9yBZUn83e69xoDD2qpSdmtW",
 
-        'device_id': uid, 
+"x-instagram-ajax":"901e37113a69",
 
-        'from_reg': 'false', 
+"x-requested-with":"XMLHttpRequest"
 
-        '_csrftoken': 'missing', 
+}
 
-        'login_attempt_count': '0' 
+data = {"username":username,"enc_password":"#PWD_INSTAGRAM_BROWSER:0:1589682409:"+pasword,"queryParams":"{}","optIntoOneTap":"false"}
 
-    } 
+login = r.post(url,headers=headers,data=data,allow_redirects=True)
 
- 
+if login.text.find("userId") >= 0 :
 
-    loginreq = r.post(url, data=data, headers=headers, allow_redirects=True) 
+    print('   [√] Done Login:',username)
 
-    print(loginreq.text) 
+    s = requests.get("https://instagram.com/"+Target+"/?__a=1")
 
- 
+    idinsta =str(s.json()["graphql"]["user"]["id"])
 
- 
+    print("[√] id Target:",idinsta)
 
-    if loginreq.text.find("is_private") >= 0: 
+    data2 = {"source_name":"","reason_id":1,"frx_context":""}
 
-        done = 0 
+    r.headers.update({'X-CSRFToken': login.cookies['csrftoken']})
 
-        print("DONE LOGIN") 
+    for x in range(100000000):
 
-        r.headers.update({'X-CSRFToken': loginreq.cookies['csrftoken']}) 
+     spam = "https://www.instagram.com/users/"+idinsta+"/report/"
 
-        url_id = "https://www.instagram.com/{}/?__a=1".format(target) 
+     spamr = r.post(spam,data=data2)
 
-        url_get_user_id = r.get(url_id).json() 
+     if spamr.text.find("Your reports help keep our community free of spam."):
 
-        print(url_get_user_id) 
+          print("[√] Done Report spam:",Target,' —— @tll86')
 
-        while True: 
+          time.sleep(1)
 
-            user_id = str(url_get_user_id["logging_page_id"]) 
+    else:
 
-            your_user_id = str(user_id.split("_")[1])# 4231341234
+        print("[-] Error Report spam")
 
-            urlRep = "https://i.instagram.com/users/" + your_user_id + "/report/" 
+        time.sleep(1)
 
-            datas = {  
+else:
 
-                    'source_name': '', 'reason_id': 1, 'frx_context': ''  # spam
+    if login.text.find("checkpoint_required"):
 
-                } 
+     print("[-] Error..secure account !")
 
-            req_SessionID = r.post(urlRep, data=datas) 
+    else:
 
-            done += 1 
-
-            print(f"تم سبام  -> rs3wd : {done}") 
-
-            time.sleep(sle) 
-
-    else: 
-
-        print("LOGIN FAILED CHECK YOUR INFO!") 
-
-login()
+         print('[-] Error..worng Pasword') 
