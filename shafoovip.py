@@ -145,7 +145,7 @@ def login():
 
             done += 1 
 
-            print(f"Done self injury  by tll86 : : {done}") 
+            print(f"Done self injury  by SHAFO : : {done}") 
 
             time.sleep(0.1) 
 
