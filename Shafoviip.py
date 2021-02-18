@@ -69,11 +69,11 @@ time.sleep(10)
 
 done = True
 
-username = input nawe instay xot(":")
+username = input (":")
 
-pasword = input pass instay xot(":")
+pasword = input (":")
 
-Target = input  nawe kabra(":")
+Target = input  (":")
 
 r = requests.session()
 
