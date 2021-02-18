@@ -1,12 +1,6 @@
-import requests 
-
-    import uuid 
-
-    import time 
-
-except Exception as e: 
-
-    print(e) 
+import requests
+from time import sleep
+print("""
 
 logo = ("""
 
