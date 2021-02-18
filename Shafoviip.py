@@ -1,13 +1,7 @@
 try:
-
-import requests
-
 import uuid
-
 import time
-
 except Exception as e:
-
 print(e)
 
 logo = ("""
