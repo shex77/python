@@ -12,11 +12,16 @@ except Exception as e:
 
 logo = ("""
 
- 
+█─▄▄▄▄█─█─██▀▄─██▄─▄▄─█─▄▄─█
+█▄▄▄▄─█─▄─██─▀─███─▄███─██─█
+▀▄▄▄▄▄▀▄▀▄▀▄▄▀▄▄▀▄▄▄▀▀▀▄▄▄▄▀
 
+
+
+ 
           ("--------------------------")
 
-          ("telegram:tll86")
+          ("insat:sha_fo_ka")
 
           ("--------------------------")
 
@@ -26,13 +31,13 @@ logo = ("""
 
 print(logo) 
 
-user = input('Enter username: ') 
+user = input('user name xot bnusa: ') 
 
-password = input('Enter password: ') 
+password = input('passi xot bnusa: ') 
 
-target = str(input(("Target:"))) 
+target = str(input(("nawi kabra:"))) 
 
-sle = int(input("Enter sleep: "))
+sle = int(input("chrka bnusa: "))
 
 def login(): 
 
@@ -108,7 +113,7 @@ def login():
 
         done = 0 
 
-        print("DONE LOGIN") 
+        print("BA SAR KAWTU DAXL BUY") 
 
         r.headers.update({'X-CSRFToken': loginreq.cookies['csrftoken']}) 
 
