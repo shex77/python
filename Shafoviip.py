@@ -40,11 +40,35 @@ t = threading.Thread(target=animate)
 
 print("""
 
-   insta ples add:sha_fo_ka
-░█▀▀▀█ ░█─░█ ─█▀▀█ ░█▀▀▀ ░█▀▀▀█ 
-─▀▀▀▄▄ ░█▀▀█ ░█▄▄█ ░█▀▀▀ ░█──░█ 
-░█▄▄▄█ ░█─░█ ░█─░█ ░█─── ░█▄▄▄█
-⠀⠀           
+ 
+
+   YT:20YXD
+
+⠀⠀⠀⠀⠀⠀⣠⣴⣶⣿⠿⢿⣶⣶⣦⣄⠀⠀⠀⠀
+
+⠀⠀⠀⠀⠀⣼⡿⠋⠁⠀⠀⠀⢀⣈⠙⢿⣷⡄⠀⠀
+
+⠀⠀⠀⠀⢸⣿⠁⠀⢀⣴⣿⠿⠿⠿⠿⠿⢿⣷⣄⠀
+
+⠀⢀⣀⣠⣾⣿⡇⠀⣾⣿⡄⠀⠀⠀⠀⠀⠀⠀⠹⣧
+
+⣾⡿⠉⠉⣿⠀⡇⠀⠸⣿⡌⠓⠶⠤⣤⡤⠶⢚⣻⡟
+
+⣿⣧⠖⠒⣿⡄⡇⠀⠀⠙⢿⣷⣶⣶⣶⣶⣶⢿⣿⠀
+
+⣿⡇⠀⠀⣿⡇⢰⠀⠀⠀⠀⠈⠉⠉⠉⠁⠀⠀⣿⠀
+
+⣿⡇⠀⠀⣿⡇⠈⡄⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⠀
+
+⣿⣷⠀⠀⣿⡇⠀⠘⠦⣄⣀⣀⣀⣀⣀⡤⠊⠀⣿⠀
+
+⢿⣿⣤⣀⣿⡇⠀⠀⠀⢀⣀⣉⡉⠁⣀⡀⠀⣾⡟⠀
+
+⠀⠉⠛⠛⣿⡇⠀⠀⠀⠀⣿⡟⣿⡟⠋⠀⢰⣿⠃⠀
+
+⠀⠀⠀⠀⣿⣧⠀⠀⠀⢀⣿⠃⣿⣇⠀⢀⣸⡯⠀⠀
+
+⠀⠀⠀⠀⠹⢿⣶⣶⣶⠿⠃⠀⠈⠛⠛⠛⠛⠁⠀⠀                
 
  
 
@@ -54,7 +78,7 @@ time.sleep(10)
 
 print("————————————————————————————————————")
 
-print("snap:br35308")
+print("telegram:tll86")
 
 print("——————————————————————————")
 
@@ -66,11 +90,11 @@ time.sleep(10)
 
 done = True
 
-username = input usare xot bnusa (":")
+username = input("Enter username:")
 
-pasword = input passe instat bnusa(":")
+pasword = input("Enter Pasword:")
 
-Target = input nawe kabra(":")
+Target = input("Enter Target:")
 
 r = requests.session()
 
